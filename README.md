@@ -69,7 +69,8 @@ Note that the test enemies are meant to be practice targets, so they won't act d
 - Use the built-in pygame.Rect.clipline() to handle collision detection between rectangles (projected obstacles) and the line (projected trajectory)
 
 ### Turn Logic
-- For each faction's turn, once no one can still take anymore action, 
+- For each faction's turn, once no one can still take anymore action, move to the next enemy.
+- Field Manager keeps track of this.
 
 
 ## Set-up
